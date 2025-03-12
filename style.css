@@ -930,8 +930,8 @@ footer{
     }
 
     .imgs {
-        height: 230px;
-        width: 170px;
+        height: 240px;
+        width: 150px;
         border: 1px solid rgb(211, 208, 208);
         
         border-radius: 5px;
@@ -942,17 +942,22 @@ footer{
 
     .imgs img {
         height: 150px;
-        width: 110px;
+        width: 100px;
         border-radius: 5px;
         transition: 0.2s;
+        padding:10px;
        
        
 
     }
     .imgs h1{
        font-size: 14px;
+       padding: 5px;
+       justify-self: center;
     }
-
+.imgs p{
+    font-size:14px;
+}
     .segment-4 {
         display: none;
 
