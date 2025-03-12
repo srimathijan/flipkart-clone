@@ -915,7 +915,7 @@ footer{
 
 
     }
-
+     
     .segment-1 {
         padding: 10px;
         background-color: white;
@@ -924,25 +924,33 @@ footer{
 
     .segment-2 {
         background-color: white;
-        padding: 10px;
+        padding: 20px;
         height: fit-content;
 
     }
 
     .imgs {
-        height: 270px;
-        width: 200px;
+        height: 250px;
+        width: 170px;
         border: 1px solid rgb(211, 208, 208);
-        padding: 30px;
+        
         border-radius: 5px;
+        text-wrap: nowrap;
+       
+       
     }
 
     .imgs img {
-        height: 180px;
-        width: 140px;
+        height: 150px;
+        width: 120px;
         border-radius: 5px;
         transition: 0.2s;
+       
+       
 
+    }
+    .imgs h1{
+       font-size: 14px;
     }
 
     .segment-4 {
